@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/csspag1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Página de memórias do IFF</title>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+
+      <!-- logo do IFF -->
+      <a target="_blank" class="navbar-brand" href="https://portal1.iff.edu.br/nossos-campi/bom-jesus-do-itabapoana">
+        <img width="25%" src="../imagens/ifflogo.png" alt="">
+      </a>
+
+      <!-- items da barra de navegação -->
+      <div class="p-2 collapse navbar-collapse d-flex flex-row-reverse" id="collapsibleNavbar" >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html"><b>início</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">sobre</a>
+        </li>
+
+        <!-- item da barra de navegação com sub-menu -->
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            memórias
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pag1.html">1º ano</a>
+            <a class="dropdown-item" href="pag2.html">2º ano</a> <!--lembrar de passar eesse menu p outrsa pag-->
+            <a class="dropdown-item" href="pag3.html">3º ano</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../index.html#series" target="_blank">por série</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+
+<!--titulo + texto + linha pontilhada-->
+    <div class="section">
+      <div class="container">
+        <div class="intro-wrap" id="inicio">
+          <div class="div-block"></div>
+          <h1 class="heading-jumbo">meu <span class="mi">1º ano </span> no <span class="iff">IFF</span<br></h1>
+            <p>entrei no IFF em 2020, mal tive tempo de decorar o número dos laboratórios - que, eu admito, ainda confundo
+              - quando, mais ou menos um mês depois, a gente recebeu duas semanas de férias que (plot twist!) iam durar um pouco
+              mais.</p>
+                <div class="div-block linha2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--itens de 2020-->
+    <div class="container containerbtn">
+      <div class="botao">
+    <!--  <button type="button" class="btn btn-light btn-lg btn-outline" href="#series" >bora ver como ficou?</button>
+    </div> -->
+    <a class="btn btn-light btn-lg btn-outline btnpag1" href="#foto1">covid-19</a>
+    <a class="btn btn-light btn-lg btn-outline btnpag1" href="#foto2">descanso</a>
+    <a class="btn btn-light btn-lg btn-outline btnpag1" href="#foto3">EAD</a>
+    <a class="btn btn-light btn-lg btn-outline btnpag1" href="#foto4">hobbies</a>
+    </div>
+    </div>
+
+    <div class="container containerbtn2">
+      <div class="botao2">
+    <!--  <button type="button" class="btn btn-light btn-lg btn-outline" href="#series" >bora ver como ficou?</button>
+    </div> -->
+    <a class="btn btn-light btn-lg btn-outline btnpag1" href="#inicio" id="mybtn">voltar ao início</a>
+    </div>
+    </div>
+
+
+    <div class="w-container">
+      <div class="" id="foto1">
+        <img src="../imagens/polaroidsesq1_pag1.png" alt="" width="478" class="polaroid">
+      </div>
+
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+
+      <div class="" id="foto2">
+        <img src="../imagens/polaroidsdir2_pag1.png" alt="" width="478" class="polaroid2">
+      </div>
+
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+
+      <div class="" id="foto3">
+        <img src="../imagens/polaroidsdir1_pag1.png" alt="" width="478" class="polaroid">
+      </div>
+
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br>
+      <img src="../imagens/polaroidsdir3_pag1.png" alt="" width="478" class="polaroid2" id="foto4">
+
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,43 @@
+* {
+    background-color: transparent;
+}
+
+p {
+  max-width: 800px;
+}
+
+.btnpag1 {
+  border-radius: 15px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.botao2 {
+    position: fixed !important;
+    z-index: 1000 !important;
+    bottom: 30px;
+    color: #ede1a6 !important;
+}
+
+.botao {
+  background-color: #ede1a6 !important;
+}
+
+.btn {
+  background-color: #ede1a6 !important;
+}
+
+.btnpag1:hover {
+transform: none !important;
+}
+
+
+.div-block.linha2 {
+    margin-top: 0px !important;
+    padding-bottom: 3165px;
+}
+
+#foto1, #foto2, #foto3, #foto4 {
+  padding-top: 90px;
+}

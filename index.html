@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Página de memórias d</title>
+  </head>
+  <body>
+
+    <!-- barra horizontal de navegação -->
+    <nav class="navbar navbar-expand-sm fixed-top">
+
+      <!-- logo do IFF -->
+      <a target="_blank" class="navbar-brand" href="https://portal1.iff.edu.br/nossos-campi/bom-jesus-do-itabapoana">
+        <img width="25%" src="imagens\ifflogo.png" alt="">
+      </a>
+
+      <!-- items da barra de navegação -->
+      <div class="p-2 collapse navbar-collapse d-flex flex-row-reverse" id="collapsibleNavbar" >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><b>início</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pag/sobre.html">sobre</a>
+        </li>
+
+        <!-- item da barra de navegação com sub-menu -->
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            memórias
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pag1.html">1º ano</a>
+            <a class="dropdown-item" href="pag2.html">2º ano</a> <!--lembrar de passar eesse menu p outrsa pag-->
+            <a class="dropdown-item" href="pag3.html">3º ano</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#series">por série</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+
+<!--início do conteúdo-->
+
+<!--título + linha pontilhada do meio-->
+<div class="section">
+  <div class="container">
+    <div class="intro-wrap">
+      <div class="div-block"></div>
+      <h1 class="heading-jumbo"><span class="text-span">bem vindo às<br></span><span class="mi">mi</span>nhas memórias do <span class="iff">IFF</span></h1>
+      <div class="div-block linha2">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--fotos polaroid-->
+<div class="w-container">
+  <img src="imagens\polaroidsesq1.png" alt="" width="478" class="polaroid">
+  <img src="imagens\polaroidsdir1.png" alt="" width="478" class="polaroid2">
+</div>
+
+<!--texto depois das fotos-->
+<div class="container _2">
+  <div class="carrer-headline-wrap">
+    <h1 class="heading-jumbo c1"><span class="texxto2">por </span><span class="text-span-3">Mi</span><span class="texxto2">chelle Pani, do </span><span class="text-span-4">3º TI</span></h1>
+    <p class="paragraph">eu nunca gostei muito de tirar fotos na escola - e muito menos da experiência que é o ensino médio para pessoas tímidas -. por isso, foi particularmente desafiador reunir as memórias desse período.<!-- <span class="text-span-5"> bora ver como ficou?</span> --></p>
+
+
+<!--botão-->
+<div class="container">
+  <div class="botao">
+<!--  <button type="button" class="btn btn-light btn-lg btn-outline" href="#series" >bora ver como ficou?</button>
+</div> -->
+<a class="btn btn-light btn-lg btn-outline" href="#series">bora ver como ficou?</a>
+</div>
+
+
+<!--linha pontilhada de novo-->
+</div>
+<div class="div-block linha3"></div>
+</div>
+
+</div>
+
+
+<!--selecionador de séries-->
+
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm">
+      <h1 class="tit_serie">1º ano</h1>
+      <ul class="text_serie">
+        <br>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp um mês de aula presencial</li>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp pandemia e quarentena</li>
+      </ul>
+      <a class="btn btn-light btn-lg btn-outline botao_serie" href="pag/pag1.html">ver memórias</a>
+    </div>
+
+
+    <div class="col-sm" id="series">
+      <h1 class="tit_serie">2º ano</h1>
+      <ul class="text_serie">
+        <br>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp adaptação e desafios</li>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp novas amizades</li>
+      </ul>
+      <a class="btn btn-light btn-lg btn-outline botao_serie" href="pag/pag2.html">ver memórias</a>
+    </div>
+
+
+    <div class="col-sm">
+      <h1 class="tit_serie">3º ano</h1>
+      <ul class="text_serie">
+        <br>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp trabalhos</li>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp trabalhos</li>
+        <span class="material-symbols-outlined text_serie">check_circle</span>
+        <li class="text_serie">&nbsp &nbsp &nbsp &nbsp ... e mais trabalhos</li>
+      </ul>
+      <a class="btn btn-light btn-lg btn-outline botao_serie" href="pag/pag3.html">ver memórias</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,407 @@
+/*icones*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*fontes*/
+@font-face {
+  font-family: 'Made mirage personal use';
+  src: url('../fontes/made_mirage/MADE_Mirage_Black_PERSONAL_USE.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Made mirage personal use';
+  src: url('../fontes/made_mirage/MADE_Mirage_Bold_PERSONAL_USE.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Made mirage personal use medium';
+  src: url('../fontes/made_mirage/MADE_Mirage_Black_PERSONAL_USE.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Made mirage personal use';
+  src: url('../fontes/made_mirage/MADE_Mirage_Regular_PERSONAL_USE.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Made mirage personal use';
+  src: url('../fontes/made_mirage/MADE_Mirage_Thin_PERSONAL_USE.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,900;1,1000&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/*config geral*/
+*{
+background-color: #ede1a6;
+box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+body {
+background-color: #ede1a6 !important;
+font-family: Montserrat, sans-serif;
+color: #550303
+font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+}
+
+/*barra de navegação*/
+nav {
+  color: #550303;
+}
+
+.navbar{
+  background-color: #ede1a6;
+  border-bottom: dotted;
+  border-color: #961b1b;
+}
+
+a:hover{
+  color: #4d7654 !important;
+  transition: all 0.3s;
+  box-shadow: inset 0 -6px 0 #4f7b58;
+}
+
+.navbar-brand {
+  transition: all 0.3s;
+  box-shadow: inset 0 -6px 0 #ede1a6 !important;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, a{
+  color: #550303 !important;
+}
+
+.dropdown-menu {
+  position: static;
+  margin-right: 20px !important;
+}
+
+
+/*começo do conteúdo*/
+
+/*linhas pontilhadas*/
+.section {
+  margin-right: 0px;
+  margin-left: 0px;
+  outline-color: #550303;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+}
+
+.container {
+  text-align: center;
+}
+
+.intro-wrap {
+  margin-top: 21px;
+  margin-bottom: 140px;
+  text-align: center;
+}
+
+.div-block {
+  position: static;
+  display: inline-block;
+  margin-top: 100px;
+  padding-bottom: 150px;
+  border-style: dashed dotted dashed dashed;
+  border-width: 0px 3px 0px 0px;
+  border-color: #961b1b;
+}
+
+.div-block.linha2 {
+  position: absolute;
+  margin-top: 80px;
+  padding-bottom: 1600px;
+  margin-bottom: 29px;
+}
+
+/*textos e títulos*/
+h1 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 400;
+  font-family: 'Made mirage medium', sans-sans-serif;
+}
+
+.heading-jumbo {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: auto;
+  font-family: 'Made mirage medium', sans-serif;
+  color: #550303;
+  font-size: 70px;
+  line-height: 80px;
+  font-style: italic;
+  font-weight: 500 !important;
+  padding-top: 45px;
+}
+
+.mi {
+  color: #aa3030;
+}
+
+.iff {
+  color: #4e7a58;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+
+.text-span {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+
+/*fotos polaroid*/
+.w-container {
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.polaroid {
+  display: absolute;
+  width: 35%;
+  margin-left: 6%;
+  float: left;
+}
+
+.polaroid2 {
+  display: absolute;
+  width: 40%;
+  margin-right: 6%;
+  float: right;
+}
+
+
+/*texto depois das fotos*/
+
+.container._2 {
+  padding-top: 250px;
+  margin-top: 16%;
+  position: static;
+}
+
+.carrer-headline-wrap {
+  margin-top: 100px;
+    margin-bottom: 50px;
+    width: 60%;
+}
+
+
+.texxto2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.text-span-3 {
+  z-index: 1;
+  margin-left: 10px;
+  color: #ae2b34;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+.text-span-4 {
+  margin-left: 10px;
+  color: #4d7654;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+}
+
+.heading-jumbo.c1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*botão*/
+.botao {
+  margin: 0 !important;
+  position: absolute;
+
+}
+
+.btn {
+  color: #550202 !important;
+  border-color: #550202 !important;
+  border: 1px solid !important;
+  margin-bottom: 80px !important;
+  background-color: transparent !important;
+}
+
+.btn:hover {
+  background-color: white !important;
+  transition: all 0.4s;
+  box-shadow: 0 6px 6px #4f7b58;
+}
+
+/*(2a versão do botão)*/
+/*
+ {
+    color: white !important;
+    background-color: #7a9163 !important;
+    border-color: #4f7b58 !important;
+    border: 1px solid #4f7b58 !important;
+    transition: all 0.4s;
+    box-shadow: 10px 10px #4f7b58;
+}
+*/
+
+p, a, button, ul, li {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+
+/*linha pontilhada de novo*/
+.div-block.linha3 {
+  position: absolute;
+  margin-top: 120px;
+}
+
+p {
+  font-size: 16px;
+  position: relative;
+  padding: 20px;
+}
+
+.text-span-5 {
+
+}
+
+
+/*selecionador de series*/
+
+    .row {
+      width: 1200px;
+      margin-top: 450px;
+      grid-gap: 120px;
+      margin-bottom: 200px;
+    }
+
+    .col-sm {
+      padding: 30px;
+      background-color: white;
+      border-radius: 8px;
+
+      font-family: 'Space Grotesk', sans-serif !important;
+      box-shadow: 0px 4px 4px 1px #4f7b58;
+      border: 1px solid #4f7b58 !important;
+
+    }
+
+    .col-sm:hover {
+      border: 1px solid #4f7b58 !important;
+      transition: all 0.4s;
+      transform: scale(1.05);
+
+    }
+
+    .tit_serie {
+      background-color: transparent;
+      font-weight: bold;
+      font-size: 30px;
+      color: #550202 !important;
+    }
+
+    .text_serie {
+      text-align: left !important;
+      background-color: white !important;
+      color: #550202;
+      margin-left: 6px;
+      margin-bottom: 8px;
+      }
+
+      .text_serie2 {
+        text-align: left !important;
+        background-color: white !important;
+        color: #550202;
+        margin-left: 6px;
+        margin-bottom: 8px;
+        }
+
+      .botao_serie {
+        margin: 20px;
+        box-shadow: 0px 0px 0px 0px !important;
+        background-color: #4f7b58 !important;
+        border: 2px solid #4f7b58 !important;
+        color: white !important;
+        font-weight: lighter !important;
+
+      }
+
+      .botao_serie:hover {
+        transition: all 0.4s !important;
+        box-shadow: 0 4px 4px 2px #a8bdac !important;
+        background-color: #4f7b58 !important;
+        border: 2px solid #4f7b58 !important;
+        color: white !important;
+        font-weight: lighter !important;
+      }
+
+      ul {
+        list-style: none;
+       padding-inline-start: 0px !important;
+         }
+
+
+      .material-symbols-outlined {
+        position: absolute;
+        justify-content: center !important;
+        align: center !important;
+      }
